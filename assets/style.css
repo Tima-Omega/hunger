@@ -384,7 +384,6 @@ body {
 
 .booking {
   padding-top: 100px;
-  padding-bottom: 500px;
 }
 
 .booking__inner {
@@ -451,6 +450,27 @@ body {
   color: rgba(51, 51, 51, 0.5);
 }
 
+.booking__img {
+  margin-right: 113px;
+}
+
+.booking__square {
+  right: 0;
+}
+
+.booking__work {
+  font-size: 12px;
+  color: rgba(51, 51, 51, 0.5);
+  border-radius: 5px;
+  text-align: center;
+  padding: 45px 0;
+}
+
+.booking__work span {
+  font-weight: 700;
+  color: rgba(51, 51, 51, 0.7);
+}
+
 .select2-container {
   width: 100% !important;
 }
@@ -461,6 +481,136 @@ body {
 }
 
 .select2-selection__rendered {
-  line-height: 60px;
+  line-height: 60px !important;
+}
+
+.specialties {
+  background: url(../assets/img/specialty-bg.png) center/cover no-repeat;
+}
+
+.specialties__head {
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: .5em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 45px 0;
+}
+
+.specialties__inner {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0 72px;
+}
+
+.specialties__row {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.specialties__img {
+  margin-left: 125px;
+}
+
+.specialties__title {
+  color: #fff;
+}
+
+.specialties__subtitle {
+  color: #fff;
+}
+
+.specialties__description {
+  color: #fff;
+}
+
+.specialties__square {
+  left: 0;
+}
+
+.specialties-pagination {
+  bottom: 7% !important;
+}
+
+.swiper-container {
+  padding-bottom: 100px;
+}
+
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 10px !important;
+}
+
+.menu {
+  padding: 100px 0;
+}
+
+.tab__nav {
+  overflow: hidden;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tab__link {
+  text-decoration: none;
+  min-width: 120px;
+  height: 50px;
+  font-size: 12px;
+  color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-right: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.tab__link:last-child {
+  border-right: none;
+}
+
+.tab__inner {
+  margin-top: 51px;
+}
+
+.tab__box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 30px 87px;
+}
+
+.tab__name {
+  font-family: 'Banny Bold Round';
+  color: #333333;
+  font-size: 18px;
+}
+
+.tab__desc {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 12px;
+  color: rgba(51, 51, 51, 0.5);
 }
 /*# sourceMappingURL=style.css.map */
