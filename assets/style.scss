@@ -478,3 +478,79 @@ body {
     }
 }
 
+.events {
+    background: url(../assets/img/event-bg.png) center /cover no-repeat;
+    &__head {
+        font-size: 12px;
+        line-height: 1.2;
+        letter-spacing: .5em;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 45px 0;
+    }
+    &__inner {
+        position: relative;
+        display: flex;
+        gap: 0 72px;
+    }
+    &__row {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    &__img {
+        margin-left: 125px;
+        &--right {
+            margin-left: 0;
+            margin-right: 125px;
+        }
+    }
+    &__name {
+        background: #000;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        right: 0;
+        width: 15%;
+        &--right {
+            left: 0;
+            transform: rotate(180deg);
+        }
+    }
+    &__text {
+        font-family: 'Banny Bold Round';
+        transform: rotate(90deg) translate(70%);
+        font-size: 24px;
+        line-height: 0.5;
+        text-transform: uppercase;
+    }
+    &__work {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.5);
+        border-radius: 5px;
+        text-align: center;
+        padding: 45px 0;
+        font-weight: 400;
+        span {
+            font-weight: 700;
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+    &__square {
+        &--left {
+            left: 0;
+        }
+    }
+}
+
+.galerie {
+    display: flex;
+    &__img {
+        width: 25%;
+    }
+}
+
+.contact {
+    padding: 100px 0;
+}
