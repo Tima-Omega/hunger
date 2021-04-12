@@ -710,4 +710,124 @@ body {
 .contact {
   padding: 100px 0;
 }
+
+.contact__inputs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 10px 10px;
+  margin-bottom: 10px;
+}
+
+.contact__input {
+  height: 60px;
+  outline: none;
+  border: none;
+  background: #E5E5E5;
+  border-radius: 5px;
+  padding: 0 20px;
+}
+
+.contact__input::-webkit-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.contact__input:-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.contact__input::-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.contact__input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.contact__input--big {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: 2 / 1 / 2 / 4;
+  height: 120px;
+  padding: 20px;
+}
+
+.contact__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__img {
+  width: 20px;
+  height: 20px;
+  background: #E8C300;
+  margin-right: 10px;
+  mask-repeat: no-repeat !important;
+  -webkit-mask-repeat: no-repeat !important;
+  mask-position: center center !important;
+  -webkit-mask-position: center center !important;
+  mask-size: contain !important;
+  -webkit-mask-size: contain !important;
+}
+
+.contact__img--1 {
+  -webkit-mask: url(../assets/img/loc.svg);
+          mask: url(../assets/img/loc.svg);
+}
+
+.contact__img--2 {
+  -webkit-mask: url(../assets/img/phone.svg);
+          mask: url(../assets/img/phone.svg);
+}
+
+.contact__img--3 {
+  -webkit-mask: url(../assets/img/email.svg);
+          mask: url(../assets/img/email.svg);
+}
+
+.contact__text {
+  font-size: 12px;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.contact__btn {
+  max-width: 640px;
+  width: 100%;
+  margin-right: 0;
+}
+
+.map iframe {
+  width: 100%;
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 40px 0;
+  font-size: 12px;
+}
 /*# sourceMappingURL=style.css.map */
